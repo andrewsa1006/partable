@@ -1,9 +1,12 @@
 import "./App.css";
+import NavComponent from "./components/NavComponent";
+import { Outlet } from "react-router-dom";
 
 const App = () => {
   return (
     <div className="App">
-      <h1>Application</h1>
+      <NavComponent />
+      <Outlet />
     </div>
   );
 };
