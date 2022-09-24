@@ -1,0 +1,8 @@
+.extra-content {
+  min-height: 200px;
+}
+
+.flex-extra-content {
+  display: flex;
+  align-items: center;
+}

@@ -2,3 +2,13 @@
   text-decoration: none;
   color: whitesmoke;
 }
+
+.format-link:hover {
+  text-decoration: solid;
+  color: grey;
+}
+
+.format-icon {
+  color: whitesmoke;
+  font-size: 1.5rem;
+}

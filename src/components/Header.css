@@ -1,0 +1,17 @@
+.card-flex {
+  display: flex;
+}
+
+.constrain-height {
+  max-height: 550px;
+}
+
+.text-align-left {
+  text-align: start;
+}
+
+.grey-background {
+  background-color: rgba(125, 125, 125, 0.8);
+  padding: 25px;
+  border-radius: 15px;
+}

@@ -1,0 +1,22 @@
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.first-nav-list {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  margin-top: 15px;
+  padding-top: 15px;
+}
+
+.first-nav-list>li {
+  list-style-type: none;
+}
+
+.first-nav-list>li:hover {
+  cursor: pointer;
+  color: azure;
+}

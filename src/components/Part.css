@@ -1,0 +1,9 @@
+.part-card {
+  text-align: start;
+  width: 18rem;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
