@@ -1,6 +1,6 @@
 import "./Body.css";
-import Tab from "react-bootstrap/tab";
-import Tabs from "react-bootstrap/tabs";
+import Tab from "react-bootstrap/Tab";
+import Tabs from "react-bootstrap/Tabs";
 import Button from "react-bootstrap/Button";
 import { useNavigate } from "react-router-dom";
 
