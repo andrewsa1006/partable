@@ -2,8 +2,12 @@ import Button from "react-bootstrap/Button";
 import Badge from "react-bootstrap/Badge";
 import Card from "react-bootstrap/Card";
 import "./Part.css";
+import { useDispatch } from "react-redux";
+import { addItemToQuote } from "../store/appSlice";
 
 const Part = (props) => {
+  const dispatch = useDispatch();
+
   const { partable_part_number, part_name, in_stock, description, image_url } = props.part;
   return (
     <div>
@@ -30,7 +34,19 @@ const Part = (props) => {
             >
               View Part
             </Button>
-            <Button variant="primary">Add to Quote</Button>
+            <Button
+              onClick={() => {
+                const item = { part_name, partable_part_number, quantity: 1 };
+                dispatch(addItemToQuote(item));
+                props.setShowToast(true);
+                setTimeout(() => {
+                  props.setShowToast(false);
+                }, 1500);
+              }}
+              variant="primary"
+            >
+              Add to Quote
+            </Button>
           </div>
         </Card.Body>
       </Card>
