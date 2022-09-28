@@ -14,7 +14,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-![Application Flow chart](https://docs.google.com/presentation/d/179xxH0yH0I0P3VvPtEmVdWm8L4u9hc4GgPDrfEEr_BM/edit?usp=sharing "Application Flow")
+[Application Flow chart](https://docs.google.com/presentation/d/179xxH0yH0I0P3VvPtEmVdWm8L4u9hc4GgPDrfEEr_BM/edit?usp=sharing "Application Flow")
 
 The application uses AWS Amplify, which should handle auto scaling automatically. Since we don’t need login functionality and its a simple nearly static site, nothing more complex needed for configuration.
 
